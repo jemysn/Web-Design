@@ -1,24 +1,91 @@
 body,html{
     height: 100%;
-    margin:0 auto;
-}   
+    margin: auto;
+}  
+.link{
+    color: white;
+    padding: 10px 5px;
+}
+.link:hover{
+    background: white;
+}
 .section1{
-    background: url(../img/maxresdefault.jpg);
-    width: 100%;
+    background: url(../img/flat-background-hd-4.jpg);
+    background-attachment: fixed;
+    background-color: #000;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
     height: 100%;
+    overflow: hidden;
+    padding: 100px 0;
+    table-layout: fixed;
     text-align: center;
+    width: 100%
 }
 .judul{
-    font-family: tahoma;
-    font-size: 70px;
-    color: black;
+    font-family: roboto black;
+    font-size: 45x;
+    color: white;
+    margin:auto
+    padding: 20px
 }
 .sub-judul{
-    font-family: calibri;
-    font-size: 40px;
-    color:black;
+    font-family: open sans;
+    font-size: 25px;
+    color:white;
+    margin: auto
+    padding: 20px
 }
 .section2{
-    background: blue;
+    background-color: cadetblue;
     padding: 200px 0px;
+}
+.isi1{
+    font-family: roboto;
+    font-size: 50px;
+    color: white; 
+}
+.isi2{
+    font-family: open sans;
+    font-size: 30px;
+    color: white;
+}
+.section3{
+    background: teal;
+    padding: 200px 0px;
+}
+.isi3{
+    font-family: open sans;
+    font-size: 50px;
+    color: white;
+    margin: auto
+    padding: 20px
+}
+.isi4{
+    font-family: open sans;
+    font-size: 30px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+.col-warna 
+{ padding: 80px
+}
+.col-warna1
+{ margin: auto
+}
+.col-warna2
+{ margin: auto
+}
+.section4{
+    background: black;
+    padding: 20px 0px;
+}
+.isi8{
+    font-family: open sans;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
 }
